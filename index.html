@@ -29,93 +29,23 @@
     </form>
     <div class="section">
       <div class="container">
+        <!-- this will show our spinner -->
+        <div hidden id="spinner"></div>
+        <!-- loader end -->
         <!-- No result found -->
         <!-- <div class="no-result">
                 <p>Results will be displayed here</p>
             </div> -->
 
         <div class="results">
-          <ul>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-            <li>
-              <p><strong>Led Zeppline</strong>- Stariway to heaven(Remaster)</p>
-              <a
-                href="lyrics-details.html"
-                target="_blank"
-                class="btn btn-primary"
-                >Show Lyrics</a
-              >
-            </li>
-          </ul>
+          <ul class="lyrics-list"></ul>
 
-          <div class="pagination">
+          <!-- <div class="pagination">
             <a
               href="lyrics-details.html"
               target="_blank"
               class="btn btn-primary prev-btn"
-              >Previous</a
+              >Previous</a  
             >
             <a
               href="lyrics-details.html"
@@ -123,7 +53,19 @@
               class="btn btn-primary next-btn"
               >Next</a
             >
-          </div>
+          </div> -->
+        </div>
+        <div class="modal" data-modal="1">
+          <svg
+            class="modal__cross js-modal-close"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+            />
+          </svg>
+          <p class="modal__title">this is modal</p>
         </div>
       </div>
     </div>
